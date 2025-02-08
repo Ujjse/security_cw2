@@ -1,0 +1,53 @@
+/* General About Page Styles */
+.aboutus {
+  background-color: #f0f0f0;
+  padding: 50px 0;
+}
+
+/* About Section */
+.about__page-section {
+  background-color: #fff;
+  padding: 40px 0;
+}
+
+.section__title {
+  font-size: 2rem;
+  font-weight: bold;
+  color: #001f3d; /* Navy blue for title */
+  margin-bottom: 20px;
+}
+
+.section__description {
+  font-size: 1rem;
+  color: #333;
+  line-height: 1.6;
+  margin-bottom: 20px;
+}
+
+/* Contact Section */
+.contact-section {
+  background-color: #001f3d; /* Navy blue background for contact */
+  padding: 40px 0;
+  color: #fff;
+}
+
+.contact-box {
+  background-color: #003366; /* Darker navy blue */
+  padding: 20px;
+  border-radius: 8px;
+}
+
+.contact-title {
+  font-size: 1.5rem;
+  color: #fff;
+  margin-bottom: 20px;
+}
+
+.contact-info h6 {
+  font-weight: bold;
+}
+
+.contact-email, .contact-phone {
+  font-size: 1.1rem;
+  color: #fff;
+}

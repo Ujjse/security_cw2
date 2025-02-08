@@ -1,0 +1,48 @@
+/* Set the background image for the entire page */
+.login-background {
+  background-image: url('https://i.pinimg.com/736x/f7/9c/d2/f79cd2d7bfdb631b53995bdc912b01b6.jpg');
+  background-size: cover;
+  background-position: center;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* Centering the login box */
+.login-box {
+  width: 400px; /* Adjust width for login box */
+  background: rgba(255, 255, 255, 0.8); /* White background with slight transparency */
+  border-radius: 10px;
+  padding: 20px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+/* Form Elements */
+.login-box .form-group label {
+  font-weight: 600;
+}
+
+.login-box button {
+  font-size: 18px;
+  font-weight: bold;
+}
+
+/* Navy Blue Button */
+.btn-navy {
+  background-color: #003366 !important; /* Navy blue */
+  border-color: #003366 !important;
+  color: white !important;
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.btn-navy:hover {
+  background-color: #002244 !important; /* Darker navy blue */
+  border-color: #002244 !important;
+  color: white !important;
+}
+
+.shadow-lg {
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
